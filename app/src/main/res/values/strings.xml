@@ -6,4 +6,7 @@
     <string name="rebate">Rebate(%)</string>
     <string name="calculate">Calculate</string>
     <string name="about">About</string>
+    <string name="about_details">Developer Details:\nMujahidin Ahmad Razi\nGroup: RCS240 5B\nStudent Number: 2021544235\nProgramme Code: ICT602</string>
+    <string name="about_copyright">© 2023 Electrical Calculator App. All rights reserved.</string>
+    <string name="about_website">Website</string>
 </resources>
