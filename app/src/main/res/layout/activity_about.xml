@@ -32,16 +32,15 @@
     <TextView
         android:id="@+id/textViewDetails"
         android:layout_width="377dp"
-        android:layout_height="111dp"
+        android:layout_height="165dp"
         android:layout_below="@id/imageViewProfile"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:justificationMode="inter_word"
-        android:text="Group: RCS240 5B\nStudent Number: 2021544235\nProgramme Code: ICT602"
+        android:text="@string/about_details"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
-
 
     <Button
         android:id="@+id/buttonWebsite"
@@ -49,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:scaleType="fitCenter"
-        android:text="Website" />
+        android:text="@string/about_website" /> />
 
     <Button
         android:id="@+id/buttonPerformAction"
@@ -62,6 +61,15 @@
         android:visibility="visible"
         android:scaleType="fitCenter"
         tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textViewCopyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/about_copyright"
+        android:textSize="14sp" />
+
 
 
 </LinearLayout>
