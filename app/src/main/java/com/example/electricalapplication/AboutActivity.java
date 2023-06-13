@@ -28,8 +28,8 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     private void openWebsite() {
-        // Replace "https://www.example.com" with your desired website URL
-        String websiteUrl = "https://www.github.com";
+       
+        String websiteUrl = "https://github.com/mujahidin9898/ElectricalCalculatorApp.git";
 
         Intent intent = new Intent(Intent.ACTION_VIEW, parse(websiteUrl));
         startActivity(intent);
