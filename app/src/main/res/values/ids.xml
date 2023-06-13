@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextUnits" type="id" />
+    <item name="editTextRebate" type="id" />
+    <item name="buttonCalculate" type="id" />
+    <item name="textViewResult" type="id" />
+    <item name="buttonAbout" type="id" />
+    <item name="buttonPerformAction" type="id" />
+    <item name="imageButtonCalculator" type="id" />
+</resources>

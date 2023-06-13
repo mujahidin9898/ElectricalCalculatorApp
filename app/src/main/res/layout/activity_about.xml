@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_insetEdge="bottom"
+    tools:context=".About">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="About"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Profile Picture"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile" />
+
+
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="377dp"
+        android:layout_height="111dp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Group: RCS240 5B\nStudent Number: 2021544235\nProgramme Code: ICT602"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonWebsite"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:text="Website" />
+
+    <Button
+        android:id="@+id/buttonPerformAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="performActionInMainActivity"
+        android:text="@string/back_to_main_page"
+        android:visibility="visible"
+        android:scaleType="fitCenter"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Electrical Application</string>
+    <string name="back_to_main_page">Back To Main Page</string>
+    <string name="about_activity">About Activity</string>
+    <string name="units_kw_h">Units(kW/h)</string>
+    <string name="rebate">Rebate(%)</string>
+    <string name="calculate">Calculate</string>
+    <string name="about">About</string>
+</resources>
